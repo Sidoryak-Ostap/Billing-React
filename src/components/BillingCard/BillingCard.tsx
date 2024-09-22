@@ -40,12 +40,7 @@ const BillingCard = () => {
 
     const newPrice = calculatePrice(newCurrentPlan.price);
     setCurrentPlan({ ...newCurrentPlan, price: newPrice });
-  }, [sliderRange]);
-
-  useEffect(() => {
-    const newPrice = calculatePrice(currentPlan.price);
-    setCurrentPlan({ ...currentPlan, price: newPrice });
-  }, [isButtonToogle]);
+  }, [sliderRange, isButtonToogle]);
 
   return (
     <article className="card">

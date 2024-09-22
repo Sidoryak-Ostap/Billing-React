@@ -1,4 +1,4 @@
-import "./tooglebutton.css";
+import "./toogleButton.css";
 
 type Props = {
   handleButtonToogle: () => void;
