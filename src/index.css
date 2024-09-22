@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --button-color: #151048;
+  --crystal-waters: #40e0d0;
+  --text-gray: #474747;
+}
+
+/*Styles reseting*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}

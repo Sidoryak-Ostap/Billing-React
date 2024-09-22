@@ -1,0 +1,17 @@
+.benefits-item {
+  color: #272626;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.benefits-item > img {
+  padding-right: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .benefits-item {
+    font-size: 16px;
+  }
+}
